@@ -2,9 +2,11 @@
   "name": "portfolio",
   "version": "1.0.0",
   "scripts": {
-    "build": "sirv . public --cors --single --no-clear --port 8000"
+    "build": "cp -a . dist",
+    "run": "sirv . public --cors --single --no-clear --port 8000"
   },
   "devDependencies": {
+    "sirv": "^2.0.3",
     "tailwindcss": "^3.3.2"
   }
 }
