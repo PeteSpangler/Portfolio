@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "scripts": {
-    "start": "sirv . public --cors --single --no-clear --port 8000"
+    "build": "sirv . public --cors --single --no-clear --port 8000"
   },
   "devDependencies": {
     "tailwindcss": "^3.3.2"
