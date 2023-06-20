@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "scripts": {
-    "build": "cp -a . dist",
+    "build": "cp -a !(dist) dist",
     "run": "sirv . public --cors --single --no-clear --port 8000"
   },
   "devDependencies": {
